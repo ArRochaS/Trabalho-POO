@@ -1,0 +1,38 @@
+package Classes;
+
+
+public abstract class sala {
+    private int ID;
+    private String Tipo;
+    int Cadeiras;
+
+   
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getTipo() {
+        return Tipo;
+    }
+
+    public void setTipo(String Tipo) {
+        this.Tipo = Tipo;
+    }
+
+    public int getCadeiras() {
+        return Cadeiras;
+    }
+
+    public void setCadeiras(int Cadeiras) {
+        this.Cadeiras = Cadeiras;
+    }
+    
+    public void CheckSala(int Cadeiras) {
+        this.Cadeiras = Cadeiras;
+    }
+    
+}
