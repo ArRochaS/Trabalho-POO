@@ -1,0 +1,24 @@
+package Classes;
+
+
+public class normal extends sala {
+    private String Disciplina;
+
+    
+    public String getDisciplina() {
+        return Disciplina;
+    }
+
+   
+    public void setDisciplina(String Disciplina) {
+        this.Disciplina = Disciplina;
+    }
+    
+    @Override
+   public void CheckSala(int Cadeiras){
+       this.Cadeiras = Cadeiras;
+       
+   }
+    
+    
+}
