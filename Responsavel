@@ -1,0 +1,20 @@
+package Main;
+
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
+import Classes.laboratorio;
+import Classes.remota;
+import Classes.normal;
+import Classes.sala;
+
+public class Responsavel {
+
+    public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.in);
+        
+    }
+    
+}
+    
+
