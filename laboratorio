@@ -1,0 +1,44 @@
+
+import java.util.Date;
+
+public class laboratorio {
+    private int Computadores;
+    private String TipoLaboratorio;      
+    private boolean EventoRepetitivo;
+    private Date EventoData;
+
+    public int getComputadores() {
+        return Computadores;
+    }
+
+    public void setComputadores(int Computadores) {
+        this.Computadores = Computadores;
+    }
+
+    public String getTipoLaboratorio() {
+        return TipoLaboratorio;
+    }
+
+    public void setTipoLaboratorio(String TipoLaboratorio) {
+        this.TipoLaboratorio = TipoLaboratorio;
+    }
+
+    public boolean isEventoRepetitivo() {
+        return EventoRepetitivo;
+    }
+
+    public void setEventoRepetitivo(boolean EventoRepetitivo) {
+        this.EventoRepetitivo = EventoRepetitivo;
+    }
+
+    public Date getEventoData() {
+        return EventoData;
+    }
+    
+    public void setEventoData(Date EventoData) {
+        this.EventoData = EventoData;
+    }
+    
+    
+    
+}
