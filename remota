@@ -1,0 +1,55 @@
+package Classes;
+
+import java.util.Date;
+
+public class remota {
+    private boolean Computador;
+    private boolean Datashow;
+    private boolean Quadro;
+    private boolean EventoRepetitivo;
+    private Date EventoData;
+
+    public boolean isComputador() {
+        return Computador;
+    }
+
+    public void setComputador(boolean Computador) {
+        this.Computador = Computador;
+    }
+
+    public boolean isDatashow() {
+        return Datashow;
+    }
+
+    public void setDatashow(boolean Datashow) {
+        this.Datashow = Datashow;
+    }
+
+    public boolean isQuadro() {
+        return Quadro;
+    }
+
+    public void setQuadro(boolean Quadro) {
+        this.Quadro = Quadro;
+    }
+
+    public boolean isEventoRepetitivo() {
+        return EventoRepetitivo;
+    }
+
+    public void setEventoRepetitivo(boolean EventoRepetitivo) {
+        this.EventoRepetitivo = EventoRepetitivo;
+    }
+
+    public Date getEventoData() {
+        return EventoData;
+    }
+
+    public void setEventoData(Date EventoData) {
+        this.EventoData = EventoData;
+    }
+
+    
+    
+    
+}
