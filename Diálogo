@@ -1,0 +1,36 @@
+package Aula_02;
+/* Importar o pacote GUI(Graphical User Interface) pacote swing, classe = JOptionPane => fornece caixas de dialógo pré-construídas que exibe mensagens na tela.
+*/
+import javax.swing.JOptionPane;
+
+public class Diálogo 
+{
+    // Declaração de variáveis de instância
+    String nome, mensagem, mensagemInicial, mensagem2;
+        
+    //1* Método
+    public void mostreCaixaDiálogo()
+        {
+           mensagemInicial = "alunos da Comunidade de Roraima";
+            
+           // Cria uma mensagem
+           // Classe String e usa o método "format" que é um método Static
+           // NomeDaClasse.NomeDoMétodo
+           mensagem = String.format("Bem-Vindo ao Mundo do Java\n%s",mensagemInicial);
+           
+           // Exibe uma mensagem na tela
+           // Classe JOptionPane e usa o método "showMessageDialog" que é um método "Static"
+           // NomeDaClasse.NomeDoMétodo
+           // "null" = para colocar a caixa de diálogo no meio da tela
+           JOptionPane.showMessageDialog(null,mensagem);
+           
+           // Pede ao usuário para inserir o seu nome
+           nome = JOptionPane.showInputDialog("Qual é o seu nome?");
+           
+           mensagem2 = String.format("Bem-Vindo %s ao Mundo do Java",nome);
+           
+           JOptionPane.showMessageDialog(null, mensagem2);
+           
+        }
+  
+}
