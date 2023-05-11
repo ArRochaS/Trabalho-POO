@@ -1,0 +1,17 @@
+package Aula_02;
+
+
+public class DiálogoTest 
+{
+    public static void main(String[] args) 
+    {
+        // Cria o objeto "mensagem" da classe Diálogo
+        Diálogo mensagem = new Diálogo();
+        
+        //Chama o método "mostreCaixaDiálogo"
+        mensagem.mostreCaixaDiálogo();  
+        
+        
+        
+    }
+}
